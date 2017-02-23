@@ -1,9 +1,12 @@
 package com.milkshakestudios.tugofwar;
 
 import com.badlogic.gdx.Game;
+import com.badlogic.gdx.Gdx;
 import com.badlogic.gdx.Screen;
 
 public class TugOfWarGame extends Game {
+
+	private String TAG = "Main Class";
 
 	@Override
 	public void dispose() {
@@ -27,7 +30,7 @@ public class TugOfWarGame extends Game {
 
 	@Override
 	public void create() {
-
+		Gdx.app.log(TAG,"created");
 	}
 
 	@Override
