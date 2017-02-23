@@ -19,7 +19,7 @@ android {
     }
     defaultConfig {
         applicationId "com.milkshakestudios.tugofwar"
-        minSdkVersion 8
+        minSdkVersion 21
         targetSdkVersion 25
     }
 }
