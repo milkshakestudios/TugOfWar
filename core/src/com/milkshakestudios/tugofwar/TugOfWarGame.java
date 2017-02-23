@@ -30,7 +30,7 @@ public class TugOfWarGame extends Game {
 
 	@Override
 	public void create() {
-		Gdx.app.log(TAG,"created");
+
 	}
 
 	@Override
