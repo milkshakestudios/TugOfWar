@@ -6,6 +6,7 @@ import com.badlogic.gdx.Screen;
 public class TugOfWarGame extends Game {
 
 	private String TAG = "Main Class";
+	private static int ERROR_CODE = 40;
 
 	@Override
 	public void dispose() {
